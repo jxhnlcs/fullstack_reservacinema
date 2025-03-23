@@ -15,8 +15,6 @@ Sistema completo para gerenciamento de reservas de cinema, com arquitetura basea
 - Angular 18
 - Angular Forms + HTTPClient
 - Tailwind CSS (estilização moderna)
-- Toast customizado
-- Font Awesome Icons
 
 ---
 
