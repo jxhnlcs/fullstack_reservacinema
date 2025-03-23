@@ -11,6 +11,12 @@ Sistema completo para gerenciamento de reservas de cinema, com arquitetura basea
 - Swagger (documentação)
 - Arquitetura com DDD (Domain-Driven Design)
 
+## 🧩 Arquitetura DDD - Visão Geral
+
+Abaixo, o diagrama de como o fluxo DDD foi aplicado no sistema:
+
+![Fluxo DDD](./docs/fluxo-ddd.png)
+
 ### Frontend (Angular)
 - Angular 18
 - Angular Forms + HTTPClient
