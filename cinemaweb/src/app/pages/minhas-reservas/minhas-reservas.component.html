@@ -1,0 +1,17 @@
+<div class="max-w-5xl mx-auto mt-10 p-6 bg-white rounded-xl shadow-md">
+  <h2 class="text-2xl font-semibold text-blue-600 mb-6">🎟️ Minhas Reservas</h2>
+
+  <div *ngIf="reservas.length > 0; else nenhumaReserva" class="grid gap-4">
+    <div *ngFor="let reserva of reservas" class="border p-4 rounded-lg shadow-sm bg-gray-50 hover:bg-gray-100 transition">
+      <p class="text-gray-800 font-medium">🎬 Filme: {{ reserva.sessao.filme.titulo }}</p>
+      <p class="text-sm text-gray-700">🛋️ Sala: {{ reserva.sessao.sala.nome }}</p>
+      <p class="text-sm text-gray-700">🕒 Horário: {{ reserva.sessao.horario | date:'short' }}</p>
+      <p class="text-sm text-gray-700">🪑 Assento: {{ reserva.assento }}</p>
+      <p class="text-sm text-gray-700">👤 Reservado por: {{ reserva.usuario.nome }}</p>
+    </div>
+  </div>
+
+  <ng-template #nenhumaReserva>
+    <p class="text-center text-gray-500">Você ainda não possui reservas.</p>
+  </ng-template>
+</div>
