@@ -15,7 +15,7 @@ Sistema completo para gerenciamento de reservas de cinema, com arquitetura basea
 
 Abaixo, o diagrama de como o fluxo DDD foi aplicado no sistema:
 
-![Fluxo DDD](./docs/fluxo-ddd.png)
+![Fluxo DDD](./docs/fluxo_ddd.png)
 
 ### Frontend (Angular)
 - Angular 18
