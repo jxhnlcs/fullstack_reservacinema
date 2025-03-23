@@ -21,8 +21,6 @@ Abaixo, o diagrama de como o fluxo DDD foi aplicado no sistema:
 - Angular 18
 - Angular Forms + HTTPClient
 - Tailwind CSS (estilização moderna)
-- Toast customizado
-- Font Awesome Icons
 
 ---
 
